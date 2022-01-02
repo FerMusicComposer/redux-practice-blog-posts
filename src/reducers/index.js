@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
+import { postsReducer } from './postsReducer';
 
 export default combineReducers({
-    default: () => 'to prevent store error',
+    posts: postsReducer,
 });
